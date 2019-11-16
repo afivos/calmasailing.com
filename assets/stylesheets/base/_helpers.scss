@@ -1,0 +1,39 @@
+.uk-tab>*>a {
+	text-transform: initial;
+	font-size: 1rem;
+	padding: 5px 0;
+}
+
+.uk-tab>*:not(:first-of-type) {
+	padding-left: 30px;
+}
+
+.uk-tab::before {
+	border-bottom: none;
+}
+
+.uk-list>li:nth-child(n+2) {
+	//margin-top: 0 !important;
+}
+
+.uk-table th {
+	vertical-align: middle;
+}
+
+.uk-table-hover tbody tr:hover {
+	background: #ddf1ff;
+}
+
+.uk-tab>.uk-active>a {
+	border-color: inherit;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}

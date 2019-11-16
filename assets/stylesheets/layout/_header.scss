@@ -1,0 +1,168 @@
+.navbar {
+	.uk-navbar-container:not(.uk-navbar-transparent) {
+		background: $color-white;
+	}
+
+	* {
+		font-size: 1rem !important;
+		text-transform: initial !important;
+	}
+
+	img {
+		margin-right: 0.5rem;
+	}
+}
+
+.uk-logo {
+	color: $color-black !important;
+}
+
+.navbar-main {
+	.uk-navbar {
+		height: 50px;
+
+		a {
+			color: #666;
+
+			&:hover,
+			&:active,
+			&:focus,
+			&.uk-open {
+				color: $color-black;
+			}
+		}
+	}
+
+	.uk-navbar-nav>li>a,
+	.uk-navbar-item {
+		min-height: 50px;
+	}
+
+	.uk-sticky-placeholder {
+		height: 50px !important;
+	}
+
+	.uk-navbar-center {
+		li.uk-active {
+			a {
+				font-weight: 700;
+			}
+
+			li {
+				a {
+					font-weight: normal;
+				}
+			}
+		}
+
+		@media (max-width: 960px) {
+			a {
+				padding: 0 10px;
+			}
+		}
+	}
+
+	img {
+		max-width: 2.5rem;
+	}
+
+	[class*=uk-navbar-dropdown-bottom] {
+		margin-top: -15px;
+		padding: 15px;
+		width: 145px;
+		box-shadow: none;
+	}
+}
+
+.navbar-responsive {
+	.uk-navbar {
+		height: 40px;
+	}
+
+	.uk-navbar-nav>li>a,
+	.uk-navbar-item {
+		min-height: 40px;
+	}
+
+	.uk-sticky-placeholder {
+		height: 40px !important;
+	}
+
+	img {
+		max-width: 2rem;
+	}
+
+	.uk-navbar-right {
+		li.uk-active {
+			a {
+				font-weight: 700 !important;
+				//cursor: auto !important;
+			}
+		}
+
+		@media (max-width: 640px) {
+			li:not(.uk-active) {
+				display: none;
+			}
+		}
+	}
+}
+
+.modal-responsive {
+	* {
+		font-size: 0.95rem !important;
+		text-transform: initial !important;
+	}
+
+	.uk-position-center {
+		@media (max-width: 640px) {
+			width: 155px;
+			margin-top: -10vh;
+		}
+
+		a {
+			color: #666;
+
+			&:hover,
+			&:active,
+			&:focus,
+			&.uk-open {
+				color: $color-black;
+			}
+		}
+	}
+
+	li.uk-active {
+		font-weight: 700;
+
+		.uk-nav-sub {
+			font-weight: normal;
+		}
+	}
+}
+
+.uk-modal-dialog {
+	//height: 80vh;
+
+	* {
+		//font-size: 0.95rem !important;
+		text-transform: initial !important;
+	}
+
+	.uk-navbar-nav>li>a,
+	.uk-navbar-item {
+		min-height: 40px;
+	}
+
+	.uk-nav {
+		.uk-modal-close-full {
+			position: relative;
+			padding: 0;
+		}
+	}
+}
+
+.uk-offcanvas-bar {
+    width: 100vw;
+    background: $color-white;
+}

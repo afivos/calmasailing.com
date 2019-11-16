@@ -1,0 +1,80 @@
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar" class="navbar navbar-main uk-visible@s">
+    <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
+
+        <div class="uk-navbar-left">
+        	<a class="uk-navbar-item uk-logo" href="/">
+        		<img src="assets/img/sailboat_logo.svg" alt="Calma Sailing logo"> Calma Sailing
+        	</a>
+        </div>
+
+    	<div class="uk-navbar-center">
+            <ul class="uk-navbar-nav" uk-scrollspy-nav="closest: li; scroll: true">
+                <li><a href="#our-boat">Our boat</a></li>
+                <li>
+                    <a href="#destinations">Destinations</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="7-days.html">7-day trip</a></li>
+                            <li><a href="14-days.html">14-day trip</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#rates">Rates</a></li>
+            </ul>
+        </div>
+
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li><a href="mailto:info@calmasailing.com" target="_top">info@calmasailing.com</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div uk-sticky="sel-target: .uk-modal-full; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar" class="navbar navbar-responsive uk-text-center uk-hidden@s">
+    <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
+
+    	<div class="uk-navbar-left">
+	    	<a class="uk-navbar-item uk-logo" href="/">
+				<img src="assets/img/sailboat_logo.svg" alt="logo"> Calma Sailing
+			</a>
+		</div>
+
+    	<div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-text-right" uk-scrollspy-nav="closest: li; scroll: true">
+                <li href="#modal-full" uk-toggle><a href="#our-boat" onclick="return false;">Our boat</a></li>
+                <li href="#modal-full" uk-toggle><a href="#destinations" onclick="return false;">Destinations</a></li>
+                <li href="#modal-full" uk-toggle><a href="#about" onclick="return false;">About us</a></li>
+                <li href="#modal-full" uk-toggle><a href="#rates" onclick="return false;">Rates</a></li>
+            </ul>
+        </div>
+
+		<div id="modal-full" class="uk-modal-full modal-responsive" uk-modal>
+		    <div class="uk-modal-dialog" uk-height-viewport>
+				<div class="uk-navbar-right">
+		            <ul class="uk-navbar-nav">
+						<li><a href="" class="uk-modal-close-full uk-close-large">Close</a></li>
+					</ul>
+				</div>
+		        <div class="uk-container uk-position-center">
+		            <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true">
+		                <li><a class="uk-modal-close-full" href="#our-boat">Our boat</a></li>
+			            <li class="uk-parent">
+			                <a class="uk-modal-close-full" href="#destinations">Destinations</a>
+			                <ul class="uk-nav-sub">
+			                    <li><a href="7-days.html">7-day trip</a></li>
+			                    <li><a href="14-days.html">14-day trip</a></li>
+			                </ul>
+			            </li>
+		                <li><a class="uk-modal-close-full" href="#about">About us</a></li>
+		                <li><a class="uk-modal-close-full" href="#rates">Rates</a></li>
+		                <li class="uk-nav-divider"></li>
+				        <li><a href="mailto:info@calmasailing.com" target="_top">info@calmasailing.com</a></li>
+		            </ul>
+		        </div>
+		    </div>
+		</div>
+
+	</nav>
+</div>

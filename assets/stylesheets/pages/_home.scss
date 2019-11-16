@@ -1,0 +1,154 @@
+.trip {
+	img.logo {
+		max-width: 2.5rem;
+		margin-bottom: 0;
+	}
+
+	.uk-h2 {
+		margin-top: 1.5rem;
+		text-transform: initial !important;
+	}
+
+	.uk-text-capitalize {
+		font-size: 0.95rem !important;
+		text-transform: initial !important;
+	}
+
+	.section-islands {
+		.uk-container {
+			@media (max-width: 640px) {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+
+		li:hover {
+			p.uk-h3 {
+				color: #333;
+			}
+		}
+	}
+}
+
+.iframe-location {
+	iframe {
+		width: 100vw;
+		min-height: 90vh;
+	}
+}
+
+.seven-days {
+	.iframe-destinations {
+		iframe {
+			min-height: 589px;
+		}
+	}
+
+	.map-overlay {
+		height: 542px;
+		top: 542px;
+		margin-top: -542px;		
+	}
+}
+
+.fourteen-days {
+	.iframe-destinations {
+		iframe {
+			min-height: 826px;
+		}
+	}
+
+	.map-overlay {
+		height: 779px;
+		top: 779px;
+		margin-top: -779px;
+	}
+}
+
+.seven-days,
+.fourteen-days {
+	.uk-table {
+		tr:first-child {
+			td {
+				padding-top: 0;
+			}
+		}
+
+		tr:last-child {
+			td {
+				padding-bottom: 0;
+			}
+		}
+
+		tr {
+			td:last-child {
+				padding-right: 0;
+				text-align: right;
+				white-space: nowrap;
+			}
+		}
+	}
+	
+	.uk-table-small td {
+		padding: 5px 12px 5px 0;
+	}
+
+	.iframe-destinations {
+		width: 100%;
+		display: inline-block;
+		overflow: hidden;
+
+		iframe {
+			position: relative;
+			top: -46px;
+			bottom: -46px;
+		}
+	}
+
+	.map-overlay {
+		position: relative;
+		width: 100%;
+		z-index: 1;
+		//border: 1px solid red;
+	}
+
+	@media (max-width: 640px) {
+		.iframe-destinations {
+			iframe {
+				min-height: 476px;
+			}
+		}
+
+		.map-overlay {
+			height: 429px;
+			top: 429px;
+			margin-top: -429px;
+		}
+	}
+}
+
+#about {
+	img {
+		max-width: 30vw;
+		
+		@media (max-width: 640px) {
+			max-width: 65vw;
+		}
+	}
+
+	a {
+		color: #666;
+	}
+}
+
+#destinations {
+	a:hover {
+		p.uk-h3 {
+			color: #333;
+		}
+	}
+
+	img {
+		min-width: 50vw;
+	}
+}

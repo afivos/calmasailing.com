@@ -1,0 +1,187 @@
+<!-- @import "header" -->
+
+<!-- @import "modals" -->
+
+<div class="trip">
+
+<div class="uk-section uk-text-center">
+	<a href="/"><img src="assets/img/sailboat_logo.svg" class="logo" alt="Calma Sailing logo"></a>
+	<p class="uk-h2 uk-text-uppercase">7-day trip</p>
+	<p class="uk-text-capitalize">
+	    <a class="uk-button uk-button-text uk-margin-small-right uk-text-capitalize" href="/">Back</a>
+	    <a class="uk-button uk-button-text uk-margin-small-left uk-text-capitalize" href="14-days.html">14-day trip</a>
+	</p>
+</div>
+
+<!-- Simple -->
+
+<div class="uk-section section-islands">
+	<div class="uk-container">
+		<div uk-slider class="uk-margin-large-bottom">
+
+		    <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+		    	<div class="uk-slider-container">
+					<ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+						<li class="uk-transition-toggle" tabindex="0">
+							<a href="#modal-aegina" uk-toggle>
+							    <img src="assets/img/aegina.jpg" alt="">
+						        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle"></div>
+							    <div class="uk-position-center uk-panel uk-light">
+							    	<p class="uk-h3" class="uk-transition-slide-bottom-small">Aegina</p>
+							    </div>
+						    </a>
+						</li>
+						<li class="uk-transition-toggle" tabindex="0">
+							<a href="#modal-hydra" uk-toggle>
+							    <img src="assets/img/hydra5.jpg" alt="">
+						        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle"></div>
+							    <div class="uk-position-center uk-panel uk-light">
+							    	<p class="uk-h3" class="uk-transition-slide-bottom-small">Hydra</p>
+							    </div>
+						    </a>
+						</li>
+						<li class="uk-transition-toggle" tabindex="0">
+							<a href="#modal-spetses" uk-toggle>
+							    <img src="assets/img/spetses4.jpg" alt="">
+						        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle"></div>
+							    <div class="uk-position-center uk-panel uk-light">
+							    	<p class="uk-h3" class="uk-transition-slide-bottom-small">Spetses</p>
+							    </div>
+						    </a>
+						</li>
+						<li class="uk-transition-toggle" tabindex="0">
+							<a href="#modal-poros" uk-toggle>
+							    <img src="assets/img/poros.jpg" alt="">
+						        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle"></div>
+							    <div class="uk-position-center uk-panel uk-light">
+							    	<p class="uk-h3" class="uk-transition-slide-bottom-small">Poros</p>
+							    </div>
+						    </a>
+						</li>
+						<!--
+						<li class="uk-transition-toggle" tabindex="0">
+							<a href="#modal-methana" uk-toggle>
+							    <img src="assets/img/methana.jpg" alt="">
+						        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle"></div>
+							    <div class="uk-position-center uk-panel uk-light">
+							    	<p class="uk-h3" class="uk-transition-slide-bottom-small">Methana</p>
+							    </div>
+						    </a>
+						</li>
+					-->
+						<li class="uk-transition-toggle" tabindex="0">
+							<a href="#modal-agistri" uk-toggle>
+							    <img src="assets/img/agistri2.jpg" alt="">
+						        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle"></div>
+							    <div class="uk-position-center uk-panel uk-light">
+							    	<p class="uk-h3" class="uk-transition-slide-bottom-small">Agistri</p>
+							    </div>
+						    </a>
+						</li>
+					</ul>
+			    </div>
+
+			    <div class="uk-visible@m">
+			        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous" aria-label="Previous"></a>
+			        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next" aria-label="Next"></a>
+			    </div>
+
+			    <div class="uk-hidden@m uk-light">
+			        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" aria-label="Previous"></a>
+			        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next" aria-label="Next"></a>
+			    </div>
+
+		    </div>
+
+			<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden@m">
+				<li uk-slider-item="0" class="uk-active">
+					<a href="#" aria-label="dotnav link 0"></a>
+				</li>
+				<li uk-slider-item="1">
+					<a href="#" aria-label="dotnav link 1"></a>
+				</li>
+				<li uk-slider-item="2">
+					<a href="#" aria-label="dotnav link 2"></a>
+				</li>
+				<li uk-slider-item="3">
+					<a href="#" aria-label="dotnav link 3"></a>
+				</li>
+				<li uk-slider-item="4">
+					<a href="#" aria-label="dotnav link 4"></a>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+<div class="uk-section uk-padding-remove-vertical seven-days">
+	<div class="uk-container">
+		<div class="uk-grid">
+			<div class="uk-width-3-5@m uk-width-1-2@s uk-width-1-1">
+				<!-- This is to avoid auto zoom when scrolling. -->
+				<div class="map-overlay" onclick="style.pointerEvents='none'"></div>
+				<div class="iframe-destinations">
+					<iframe title="7-day trip on the map" src="https://www.google.com/maps/d/embed?mid=10-nb2SgUncWFs_MlQROj9D44Rt71jtja" width="100%" height=""></iframe>
+				</div>
+			</div>
+			<div class="uk-width-expand">
+				<div class="uk-overflow-auto">
+					<table class="uk-table uk-table-small">
+					    <tbody>
+					        <tr>
+					            <td>Saturday</td>
+					            <td>Alimos</td>
+					            <td>Check in at 17.00</td>
+					        </tr>
+					        <tr>
+					            <td>Sunday</td>
+					            <td>Alimos <span uk-icon="icon: arrow-right"></span> Aegina</td>
+					            <td>17 NM</td>
+					        </tr>
+					        <tr>
+					            <td>Monday</td>
+					            <td>Aegina <span uk-icon="icon: arrow-right"></span> Hydra</td>
+					            <td>27 NM</td>
+					        </tr>
+					        <tr>
+					            <td>Tuesday</td>
+					            <td>Hydra <span uk-icon="icon: arrow-right"></span> Spetses</td>
+					            <td>17 NM</td>
+					        </tr>
+					        <tr>
+					            <td>Wednesday</td>
+					            <td>Spetses <span uk-icon="icon: arrow-right"></span> Poros</td>
+					            <td>28 NM</td>
+					        </tr>
+					        <tr>
+					            <td>Thursday</td>
+					            <td>Poros <span uk-icon="icon: arrow-right"></span> Agistri</td>
+					            <td>14 NM</td>
+					        </tr>
+					        <tr>
+					            <td>Friday</td>
+					            <td>Agistri <span uk-icon="icon: arrow-right"></span> Alimos</td>
+					            <td>21 NM</td>
+					        </tr>
+					    </tbody>
+					</table>
+				</div>
+
+				<hr class="uk-divider-small">
+
+				<p>Picturesque small islands and the green coastline of Peloponnese are to be discovered within one week travel. Saronic and Argolic golfs contain beautiful coves, nice beaches, blue waters, and mild winds. Cosmopolitan places and uninhabited islands coexist in a perfect balance. If you want some quality time in the water without much traveling then this is the best choice for you.</p>
+
+				<p>Diesel, water, and food supplies are easy to find. Local food is always delicious and worth trying.</p>
+
+				<hr class="uk-divider-small uk-visilbe@s">
+
+				<p><small>Click on the map to zoom and move around.</small></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+<!-- @import "footer" -->

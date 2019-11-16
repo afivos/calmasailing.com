@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="188px" height="160px" viewBox="0 0 188 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="logo_boat" transform="translate(-51.000000, -206.000000)" stroke="#000000" stroke-width="6">
+            <g id="Group" transform="translate(54.662160, 209.827440)">
+                <path d="M-1.42108547e-14,149.89416 C21.36768,132.87096 43.53072,129.71496 66.4896,140.42376 C89.44848,151.13256 111.96144,155.06616 134.02896,152.22696 C156.09624,149.38776 171.56616,141.61656 180.43848,128.91096" id="Stroke-7"></path>
+                <path d="M31.50696,113.55096 C45.86352,94.51656 59.26512,74.34456 71.71176,53.03256 C84.1584,31.72056 97.21464,16.9848 110.88024,8.8248" id="Stroke-8"></path>
+                <path d="M118.1976,19.41624 C148.09536,35.08536 166.3152,60.04296 172.85736,94.28616" id="Stroke-9"></path>
+                <polyline id="Stroke-10" points="64.37784 103.13256 154.61784 97.13256 144.77784 129.77256"></polyline>
+                <path d="M109.53072,100.20456 C117.99864,45.48936 120.2664,12.08712 116.33376,0" id="Stroke-11"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+#footer {
+	font-size: 90%;
+	
+	img {
+		max-width: 375px;
+
+		@media (max-width: 600px) {
+			max-width: 75vw;
+		}
+	}
+
+	a {
+		color: initial;
+	}
+}
