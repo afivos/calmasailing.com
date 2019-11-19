@@ -144,11 +144,18 @@
 #destinations {
 	a:hover {
 		p.uk-h3 {
-			color: #333;
+			color: #fff;
 		}
 	}
 
 	img {
 		min-width: 50vw;
+	}
+
+	.uk-position-cover {
+		&:hover,
+		&:focus {
+			background: transparent;
+		}
 	}
 }
