@@ -2,6 +2,12 @@
 	text-transform: initial;
 	font-size: 1rem;
 	padding: 5px 0;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $color-black;
+	}
 }
 
 .uk-tab>*:not(:first-of-type) {
@@ -26,8 +32,9 @@
 
 .uk-tab>.uk-active>a {
 	border-color: inherit;
-	border-bottom: 3px solid #000;
-	color: #000;
+	border-bottom: 3px solid $color-black;
+	color: $color-black;
+	font-family: $sans-serif-med !important;
 }
 
 html {
