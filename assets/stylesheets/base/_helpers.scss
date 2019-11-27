@@ -1,3 +1,9 @@
+.uk-tab {
+	@media (max-width: 640px) {
+		justify-content: center;		
+	}
+}
+
 .uk-tab>*>a {
 	text-transform: initial;
 	font-size: 1rem;
