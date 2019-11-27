@@ -50,7 +50,8 @@
 	.uk-navbar-center {
 		li.uk-active {
 			a {
-				font-weight: 700;
+				font-weight: bold;
+				//font-family: $sans-serif-med !important;
 			}
 
 			li {

@@ -31,10 +31,9 @@
 }
 
 .uk-tab>.uk-active>a {
-	border-color: inherit;
 	border-bottom: 3px solid $color-black;
 	color: $color-black;
-	font-family: $sans-serif-med !important;
+	font-weight: bold;
 }
 
 html {
