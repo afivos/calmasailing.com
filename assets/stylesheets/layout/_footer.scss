@@ -2,14 +2,16 @@
 	font-size: 90%;
 	
 	img {
-		max-width: 375px;
-
-		@media (max-width: 600px) {
-			max-width: 75vw;
-		}
+		max-width: 525px;
 	}
 
 	a {
 		color: initial;
+	}
+
+	@media (max-width: 600px) {
+		img, p {
+			max-width: 95vw;
+		}
 	}
 }
