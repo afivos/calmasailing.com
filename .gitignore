@@ -2,3 +2,4 @@
 *.codekit3
 *.scssc
 .DS_Store
+build/
